@@ -8,6 +8,9 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var wechat = require('wechat');
+var http = require("http");
+var url = require('url');
+var crypto = require('crypto');
 
 var app = express();
 
@@ -28,6 +31,38 @@ app.use('/', routes);
 app.use('/users', users);
 
 app.use(express.query()); // Or app.use(express.query());
+
+function sha1(str){
+  var md5sum = crypto.createHash('sha1');
+  md5sum.update(str);
+  str = md5sum.digest("hex");
+  return str;
+}
+
+function validateToken(req,res){
+  var query = url.parse(req.url,true).query;
+  var signature = query.signature;
+  var echostr = query.echostr;
+  var timestamp = query['timestamp'];
+  var nonce = query.nonce;
+  var oriArray = new Array();
+  oriArray[0] = nonce;
+  oriArray[1] = timestamp;
+  oriArray[2] = "syuuhi";
+  oriArray.sort();
+  var original = oriArray.join('');
+  console.log("original str:"+original);
+  console.log("signature:"+signature);
+  var scyptoString = sha1(original);
+  if(signature == scyptoString){
+    res.end(echostr);
+    console.log("confirm and send echo back");
+  }else{
+    res.end("false");
+    console.log("failed");
+  }
+}
+//app.use('/wechat',validateToken);
 app.use('/wechat', wechat('syuuhi', function (req, res, next) {
   // 微信输入信息都在req.weixin上
   var message = req.weixin;
