@@ -24,6 +24,7 @@ app.set('view engine', 'ejs');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.user
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -35,15 +36,23 @@ app.use('/users', users);
 
 //app.use(app.query());
 app.use('/wechat',wechat(config,function(req,res,next){
+
+  log("wechat:");
   var message = req.weixin;
-  if(message.fromUsername == 'diaosi'){
+  if(message.type == "text"){
+    return;
+  }
+  if(message.content == 'diaosi'){
+    log("diaosi:");
     res.reply('hehe');
-  }else if (message.fromUsername == 'text'){
+  }else if (message.content == 'text'){
+    log(message.content);
     res.reply({
       content:"说啥捏",
       type:'text'
     });
-  }else if (message.fromUsername == 'hehe'){
+  }else if (message.content == 'hehe'){
+    log(message.content);
     res.reply({
       type:'music',
       content:{
@@ -55,6 +64,7 @@ app.use('/wechat',wechat(config,function(req,res,next){
       }
     });
   }else{
+    log(message.content);
     res.reply([
       {
         title:"范美丽,你要等我",
