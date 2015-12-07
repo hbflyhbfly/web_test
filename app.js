@@ -9,13 +9,6 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 var wechat = require('wechat');
 
-var config = {
-  token:'K5eM66tZ4ho6x-m-BldwL-e8iwr8Kwqh-LA8Ne_XuRJYr4TJoDx28KLBlncelqCYd-sJjdsSblHGkkH7I_qaleOaU1NQsCmI43ofakRWrnILUIfAAACLZ',
-  appid:'wxb0864d52be23eaaa',
-  encodingAESKey:'744UyZhHQsHsgfogSND5KGpTmzy6d3IZSTWvI22bu5O'
-
-}
-
 var app = express();
 
 // view engine setup
@@ -34,67 +27,46 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/users', users);
 
-//app.use(app.query());
-app.use('/wechat',wechat(config,function(req,res,next){
-
-  log("wechat:");
+app.use(express.query()); // Or app.use(express.query());
+app.use('/wechat', wechat('syuuhi', function (req, res, next) {
+  // 微信输入信息都在req.weixin上
   var message = req.weixin;
-  if(message.type == "text"){
-    return;
-  }
-  if(message.content == 'diaosi'){
-    log("wechat:");
-    res.reply('hehe');
-  }else if (message.content == 'text'){
-    log(message.content);
-    res.reply({
-      content:"说啥捏",
-      type:'text'
-    });
-  }else if (message.content == 'hehe'){
-    log(message.content);
-    res.reply({
-      type:'music',
-      content:{
-        title:"来听首歌吧",
-        description:"晴天",
-        musicUrl:"http://y.qq.com/#type=song&mid=0039MnYb0qxYhV",
-        hdMusiUrl:"http://y.qq.com/#type=song&mid=0039MnYb0qxYhV",
-        thumbMediaId:"0039MnYb0qxYhV"
-      }
-    });
-  }else{
-    log(message.content);
-    res.reply([
-      {
-        title:"范美丽,你要等我",
-        description:"这是账房大娘和程序猿的对话",
-        picurl:"http://nodeapi.cloudfoundry.com/qrcode.jpg",
-        url:"http://nodeapi.cloudfoundry.com/"
-      }
-    ]);
+  console.log(message);
+  if((message.MsgType == 'event') && (message.Event == 'subscribe'))
+  {
+    var refillStr = "<a href=\"http://your_IP/weixin/refill?weixinId=" + message.fromUsername + "\">1. 点击记录团队充值</a>"
+
+    var consumeStr = "<a href=\"http://your_IP/weixin/consume?weixinId=" + message.fromUsername + "\">2. 点击记录团队消费</a>"
+    var deleteStr = "<a href=\"http://your_IP/weixin/delete?weixinId=" + message.fromUsername + "\">3. 点击回退记录</a>"
+    var historyStr = "<a href=\"http://your_IP/weixin/history?weixinId=" + message.fromUsername + "\">4. 点击查询历史记录</a>"
+
+    var emptyStr = "          ";
+    var replyStr = "感谢你的关注！" + "\n"+ emptyStr + "\n" + refillStr + "\n"+ emptyStr + "\n" + consumeStr
+        + "\n"+ emptyStr + "\n" + deleteStr + "\n"+ emptyStr + "\n" + historyStr;
+    res.reply(replyStr);
   }
 }));
+
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  var err = new Error('Not Found');
-  err.status = 404;
-  next(err);
-});
-
-// error handlers
-
-// development error handler
-// will print stacktrace
-if (app.get('env') === 'development') {
-  app.use(function(err, req, res, next) {
-    res.status(err.status || 500);
-    res.render('error', {
-      message: err.message,
-      error: err
-    });
-  });
-}
+//app.use(function(req, res, next) {
+//  var err = new Error('Not Found');
+//  err.status = 404;
+//  next(err);
+//});
+//
+//// error handlers
+//
+//// development error handler
+//// will print stacktrace
+//if (app.get('env') === 'development') {
+//  app.use(function(err, req, res, next) {
+//    res.status(err.status || 500);
+//    res.render('error', {
+//      message: err.message,
+//      error: err
+//    });
+//  });
+//}
 
 // production error handler
 // no stacktraces leaked to user
