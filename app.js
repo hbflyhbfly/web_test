@@ -10,7 +10,7 @@ var users = require('./routes/users');
 var wechat = require('wechat');
 
 var config = {
-  token:'syuuhi',
+  token:'K5eM66tZ4ho6x-m-BldwL-e8iwr8Kwqh-LA8Ne_XuRJYr4TJoDx28KLBlncelqCYd-sJjdsSblHGkkH7I_qaleOaU1NQsCmI43ofakRWrnILUIfAAACLZ',
   appid:'wxb0864d52be23eaaa',
   encodingAESKey:'744UyZhHQsHsgfogSND5KGpTmzy6d3IZSTWvI22bu5O'
 
@@ -43,7 +43,7 @@ app.use('/wechat',wechat(config,function(req,res,next){
     return;
   }
   if(message.content == 'diaosi'){
-    log("diaosi:");
+    log("wechat:");
     res.reply('hehe');
   }else if (message.content == 'text'){
     log(message.content);
