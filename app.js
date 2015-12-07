@@ -39,7 +39,7 @@ app.use('/wechat',wechat(config,function(req,res,next){
   if(message.fromUsername == 'diaosi'){
     res.reply('hehe');
   }else if (message.fromUsername == 'text'){
-    res.replay({
+    res.reply({
       content:"说啥捏",
       type:'text'
     });
