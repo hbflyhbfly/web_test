@@ -62,7 +62,7 @@ function validateToken(req,res){
     console.log("failed");
   }
 }
-//app.use('/wechat',validateToken);
+app.get('/wechat',validateToken);
 app.use('/wechat', wechat('syuuhi', function (req, res, next) {
   // 微信输入信息都在req.weixin上
   var message = req.weixin;
@@ -81,6 +81,10 @@ app.use('/wechat', wechat('syuuhi', function (req, res, next) {
     res.reply(replyStr);
   }
 }));
+
+app.use('/zhoufei',function(req,res,next){
+  console.log("zhoufei");
+})
 
 // catch 404 and forward to error handler
 //app.use(function(req, res, next) {
@@ -105,13 +109,13 @@ app.use('/wechat', wechat('syuuhi', function (req, res, next) {
 
 // production error handler
 // no stacktraces leaked to user
-app.use(function(err, req, res, next) {
-  res.status(err.status || 500);
-  res.render('error', {
-    message: err.message,
-    error: {}
-  });
-});
+//app.use(function(err, req, res, next) {
+//  res.status(err.status || 500);
+//  res.render('error', {
+//    message: err.message,
+//    error: {}
+//  });
+//});
 
 
 
