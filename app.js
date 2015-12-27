@@ -69,7 +69,7 @@ function validateToken(req,res){
   res.end();
 }
 
-app.post('/', wechat('syuuhi', function (req, res, next) {
+app.post('/post', wechat('syuuhi', function (req, res, next) {
 
   var message = req.weixin;
   console.log(message);
