@@ -62,7 +62,7 @@ function validateToken(req,res){
     console.log("failed");
   }
 }
-app.get('/wechat',validateToken);
+app.get('/validateToken',validateToken);
 app.use('/wechat', wechat('syuuhi', function (req, res, next) {
   // 微信输入信息都在req.weixin上
   var message = req.weixin;
