@@ -72,7 +72,7 @@ app.use('/wechat', wechat('syuuhi', function (req, res, next) {
     res.reply({ type: "text", content: "you input " + message.Content});
   }
 }));
-app.get('/wechat',validateToken);
+//app.get('/wechat',validateToken);
 
 //app.use('/wechat', wechat('syuuhi', function (req, res, next) {
 //  // 微信输入信息都在req.weixin上
