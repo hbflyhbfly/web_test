@@ -65,15 +65,15 @@ function validateToken(req,res){
   res.end();
 }
 
-app.post('/wechat', wechat('syuuhi', function (req, res, next) {
-
-  var message = req.weixin;
-  console.log(message);
-  if(message.MsgType == 'text'){
-    res.reply({ type: "text", content: "you input " + message.Content});
-  }
-}));
-//app.get('/wechat',validateToken);
+//app.post('/', wechat('syuuhi', function (req, res, next) {
+//
+//  var message = req.weixin;
+//  console.log(message);
+//  if(message.MsgType == 'text'){
+//    res.reply({ type: "text", content: "you input " + message.Content});
+//  }
+//}));
+app.get('/wechat',validateToken);
 
 //app.use('/wechat', wechat('syuuhi', function (req, res, next) {
 //  // 微信输入信息都在req.weixin上
