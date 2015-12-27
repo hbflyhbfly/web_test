@@ -27,8 +27,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
-app.use('/users', users);
+//app.use('/', routes);
+//app.use('/users', users);
 
 app.use(express.query()); // Or app.use(express.query());
 
@@ -62,16 +62,16 @@ function validateToken(req,res){
     res.send("false");
     console.log("failed");
   }
-  res.end();
+  //res.end();
 }
-app.get('/wechat',validateToken);
 
-app.post('/wechat', wechat('syuuhi', function (req, res, next) {
+app.use('/wechat', wechat('syuuhi', function (req, res, next) {
   var message = req.weixin;
   if(message.MsgType == 'text'){
     res.reply({ type: "text", content: "you input " + message.Content});
   }
 }));
+app.get('/wechat',validateToken);
 
 //app.use('/wechat', wechat('syuuhi', function (req, res, next) {
 //  // 微信输入信息都在req.weixin上
