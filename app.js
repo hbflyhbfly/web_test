@@ -46,21 +46,25 @@ function validateToken(req,res){
   var timestamp = query['timestamp'];
   var nonce = query.nonce;
   var oriArray = new Array();
-  oriArray[0] = "syuuhi";
+  oriArray[0] = nonce;
   oriArray[1] = timestamp;
-  oriArray[2] = nonce;
+  oriArray[2] = "syuuhi";
 
   oriArray.sort();
   var original = oriArray.join('');
   console.log("original str:"+original);
   console.log("signature:"+signature);
   var scyptoString = sha1(original);
+  console.log(scyptoString);
+  console.log(signature);
+
   if(signature == scyptoString){
     res.send(echostr);
     console.log("confirm and send echo back");
   }else{
     res.send("shibaile");
     console.log("failed");
+
   }
   res.end();
 }
