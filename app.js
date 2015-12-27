@@ -69,10 +69,9 @@ function validateToken(req,res){
   res.end();
 }
 
-app.use('/', wechat('syuuhi', wechat.text(function(message, req, res) {
+app.use('/wechat', wechat('syuuhi', function(message, req, res) {
   res.reply('你好！');
-
-})));
+}));
 app.get('/wechat',validateToken);
 
 //app.use('/wechat', wechat('syuuhi', function (req, res, next) {
