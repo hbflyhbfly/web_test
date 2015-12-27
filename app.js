@@ -65,7 +65,8 @@ function validateToken(req,res){
   res.end();
 }
 
-app.use('/wechat', wechat('syuuhi', function (req, res, next) {
+app.post('/wechat', wechat('syuuhi', function (req, res, next) {
+
   res.send("zhoufei");
   var message = req.weixin;
   if(message.MsgType == 'text'){
