@@ -59,7 +59,7 @@ function validateToken(req,res){
     res.send(echostr);
     console.log("confirm and send echo back");
   }else{
-    res.send("false");
+    res.send("shibaile");
     console.log("failed");
   }
   res.end();
@@ -73,7 +73,7 @@ app.use('/', wechat('syuuhi', function (req, res, next) {
     res.reply({ type: "text", content: "you input " + message.Content});
   }
 }));
-//app.get('/wechat',validateToken);
+app.get('/wechat',validateToken);
 
 //app.use('/wechat', wechat('syuuhi', function (req, res, next) {
 //  // 微信输入信息都在req.weixin上
