@@ -46,9 +46,10 @@ function validateToken(req,res){
   var timestamp = query['timestamp'];
   var nonce = query.nonce;
   var oriArray = new Array();
-  oriArray[0] = nonce;
+  oriArray[0] = "syuuhi";
   oriArray[1] = timestamp;
-  oriArray[2] = "syuuhi";
+  oriArray[2] = nonce;
+
   oriArray.sort();
   var original = oriArray.join('');
   console.log("original str:"+original);
@@ -62,29 +63,37 @@ function validateToken(req,res){
     console.log("failed");
   }
 }
-app.get('/validateToken',validateToken);
+app.get('/wechat',validateToken);
+
 app.use('/wechat', wechat('syuuhi', function (req, res, next) {
-  // 微信输入信息都在req.weixin上
   var message = req.weixin;
-  console.log(message);
-  if((message.MsgType == 'event') && (message.Event == 'subscribe'))
-  {
-    var refillStr = "<a href=\"http://your_IP/weixin/refill?weixinId=" + message.fromUsername + "\">1. 点击记录团队充值</a>"
-
-    var consumeStr = "<a href=\"http://your_IP/weixin/consume?weixinId=" + message.fromUsername + "\">2. 点击记录团队消费</a>"
-    var deleteStr = "<a href=\"http://your_IP/weixin/delete?weixinId=" + message.fromUsername + "\">3. 点击回退记录</a>"
-    var historyStr = "<a href=\"http://your_IP/weixin/history?weixinId=" + message.fromUsername + "\">4. 点击查询历史记录</a>"
-
-    var emptyStr = "          ";
-    var replyStr = "感谢你的关注！" + "\n"+ emptyStr + "\n" + refillStr + "\n"+ emptyStr + "\n" + consumeStr
-        + "\n"+ emptyStr + "\n" + deleteStr + "\n"+ emptyStr + "\n" + historyStr;
-    res.reply(replyStr);
+  if(message.MsgType == 'text'){
+    res.reply({ type: "text", content: "you input " + message.Content});
   }
 }));
 
-app.use('/zhoufei',function(req,res,next){
-  console.log("zhoufei");
-})
+//app.use('/wechat', wechat('syuuhi', function (req, res, next) {
+//  // 微信输入信息都在req.weixin上
+//  var message = req.weixin;
+//  console.log(message);
+//  if((message.MsgType == 'event') && (message.Event == 'subscribe'))
+//  {
+//    var refillStr = "<a href=\"http://your_IP/weixin/refill?weixinId=" + message.fromUsername + "\">1. 点击记录团队充值</a>"
+//
+//    var consumeStr = "<a href=\"http://your_IP/weixin/consume?weixinId=" + message.fromUsername + "\">2. 点击记录团队消费</a>"
+//    var deleteStr = "<a href=\"http://your_IP/weixin/delete?weixinId=" + message.fromUsername + "\">3. 点击回退记录</a>"
+//    var historyStr = "<a href=\"http://your_IP/weixin/history?weixinId=" + message.fromUsername + "\">4. 点击查询历史记录</a>"
+//
+//    var emptyStr = "          ";
+//    var replyStr = "感谢你的关注！" + "\n"+ emptyStr + "\n" + refillStr + "\n"+ emptyStr + "\n" + consumeStr
+//        + "\n"+ emptyStr + "\n" + deleteStr + "\n"+ emptyStr + "\n" + historyStr;
+//    res.reply(replyStr);
+//  }
+//}));
+//
+//app.use('/zhoufei',function(req,res,next){
+//  console.log("zhoufei");
+//})
 
 // catch 404 and forward to error handler
 //app.use(function(req, res, next) {
