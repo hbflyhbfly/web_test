@@ -56,16 +56,17 @@ function validateToken(req,res){
   console.log("signature:"+signature);
   var scyptoString = sha1(original);
   if(signature == scyptoString){
-    res.end(echostr);
+    res.send(echostr);
     console.log("confirm and send echo back");
   }else{
-    res.end("false");
+    res.send("false");
     console.log("failed");
   }
+  res.end();
 }
 app.get('/wechat',validateToken);
 
-app.use('/wechat', wechat('syuuhi', function (req, res, next) {
+app.post('/wechat', wechat('syuuhi', function (req, res, next) {
   var message = req.weixin;
   if(message.MsgType == 'text'){
     res.reply({ type: "text", content: "you input " + message.Content});
