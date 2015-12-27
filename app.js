@@ -65,10 +65,10 @@ function validateToken(req,res){
   res.end();
 }
 
-app.post('/wechat', wechat('syuuhi', function (req, res, next) {
+app.use('/', wechat('syuuhi', function (req, res, next) {
 
-  res.send("zhoufei");
   var message = req.weixin;
+  console.log(message);
   if(message.MsgType == 'text'){
     res.reply({ type: "text", content: "you input " + message.Content});
   }
