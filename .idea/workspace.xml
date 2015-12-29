@@ -2,220 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d574c81d-d1af-4365-bd65-05b42819bd97" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/figures/wechat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/fixture/image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/fixture/movie.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/fixture/pic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/fixture/test.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api_common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/MIT-License" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/figures/api.graffle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/figures/wechat.graffle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_card.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_custom_service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_datacube.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_device.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_feedback.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_group.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_ip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_js.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_mass_send.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_material.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_media.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_menu_custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_message.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_payment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_poi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_qrcode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_semantic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_shakearound.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_shop_common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_shop_express.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_shop_goods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_shop_group.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_shop_order.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_shop_shelf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_shop_stock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_url.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/api_user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/lib/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/.jshintignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/lib/formstream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/buffer-concat/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/buffer-concat/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/buffer-concat/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/buffer-concat/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/buffer-concat/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/destroy/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/destroy/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/destroy/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/mime/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/mime/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/mime/mime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/mime/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/mime/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/mime/types/mime.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/mime/types/node.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/pause-stream/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/pause-stream/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/pause-stream/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/LICENSE.APACHE2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/LICENSE.MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/readme.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/test/async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/test/auto-destroy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/test/buffering.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/test/end.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/pause-stream/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/pause-stream/readme.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/pause-stream/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/node_modules/pause-stream/test/pause-end.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/formstream/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/lib/urllib.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/default-user-agent/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/default-user-agent/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/default-user-agent/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/default-user-agent/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/default-user-agent/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/default-user-agent/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/default-user-agent/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/benchmark/date_YYYYMMDD.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/benchmark/date_format.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/benchmark/get_paramnames.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/benchmark/md5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/lib/utility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/node_modules/address/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/node_modules/address/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/node_modules/address/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/node_modules/address/lib/address.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/node_modules/address/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/digest-header/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/.jshintignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/coverage/coverage.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/coverage/lcov-report/humanize-ms/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/coverage/lcov-report/humanize-ms/index.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/coverage/lcov-report/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/coverage/lcov-report/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/coverage/lcov-report/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/coverage/lcov.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/node_modules/ms/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/node_modules/ms/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/node_modules/ms/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/node_modules/ms/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/humanize-ms/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/Changelog.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/encodings/dbcs-codec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/encodings/dbcs-data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/encodings/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/encodings/internal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/encodings/sbcs-codec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/encodings/sbcs-data-generated.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/encodings/sbcs-data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/encodings/tables/big5-added.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/encodings/tables/cp936.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/encodings/tables/cp949.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/encodings/tables/cp950.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/encodings/tables/eucjp.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/encodings/tables/gbk-added.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/encodings/tables/shiftjis.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/encodings/utf16.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/encodings/utf7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/lib/bom-handling.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/lib/extend-node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/lib/streams.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/iconv-lite/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/media-typer/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/media-typer/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/media-typer/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/media-typer/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/media-typer/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/native-or-bluebird/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/native-or-bluebird/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/native-or-bluebird/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/native-or-bluebird/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/native-or-bluebird/promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/statuses/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/statuses/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/statuses/codes.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/statuses/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/node_modules/statuses/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/node_modules/urllib/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_common.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_custom_service.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_customer.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_feedback.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_group.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_ip.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_mass_send.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_media.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_menu.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_payment.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_qrcode.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_semantic.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_shop_common.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_shop_express.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_shop_goods.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_shop_group.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_shop_order.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_shop_shelf.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_shop_stock.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_template.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_url.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/api_user.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-api/test/fixture/menu.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/init_lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/wechat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/menu_service.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api_common.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.json" afterPath="$PROJECT_DIR$/config/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
     </list>
     <ignored path="web_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -236,21 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4431818">
-              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/wechat/test/events.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state vertical-scroll-proportion="-3.0555556">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -259,19 +43,63 @@
       <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-32.5">
-              <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+            <state vertical-scroll-proportion="12.041667">
+              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api_common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_common.js">
+      <file leaf-file-name="wechat.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/wechat.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="26" />
+              <caret line="52" column="20" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.2222223">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init_lock" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/init_lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu_service.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service/menu_service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6136364">
+              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -296,10 +124,16 @@
         <option value="$PROJECT_DIR$/node_modules/wechat/test/wechat.test.js" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/bin/www" />
-        <option value="$PROJECT_DIR$/config/config.json" />
         <option value="$PROJECT_DIR$/config/config.js" />
+        <option value="$PROJECT_DIR$/config/config.json" />
         <option value="$PROJECT_DIR$/api_common.js" />
+        <option value="$PROJECT_DIR$/services/menu_services.js" />
+        <option value="$PROJECT_DIR$/init_lock.js" />
+        <option value="$PROJECT_DIR$/routes/wechat.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/init_lock" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/service/menu_service.js" />
       </list>
     </option>
   </component>
@@ -311,8 +145,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="66" />
-    <option name="y" value="37" />
+    <option name="x" value="70" />
+    <option name="y" value="48" />
     <option name="width" value="1311" />
     <option name="height" value="786" />
   </component>
@@ -371,7 +205,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -470,12 +318,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="37" width="1311" height="786" extended-state="0" />
+    <frame x="70" y="48" width="1311" height="786" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20232558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32564843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -488,7 +337,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -517,29 +365,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -725,20 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.045045044">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17045455">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/wechat/lib/wechat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.0193706">
@@ -751,13 +562,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/wechat-api/test/api_menu.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -801,20 +605,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/wechat-api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5720721">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/wechat-api/test/api_common.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14527845">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5">
@@ -827,14 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06787331">
           <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.5">
-          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -871,27 +653,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_common.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/wechat-api/test/api_menu.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.13636364">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/wechat/test/events.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.71590906">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/wechat-api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5681819">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/wechat-api/test/api_common.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2954545">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/wechat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="12.041667">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init_lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4431818">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        <state vertical-scroll-proportion="-3.0555556">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2222223">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/menu_service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6136364">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
