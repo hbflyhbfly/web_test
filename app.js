@@ -11,7 +11,7 @@ var wechat = require('wechat');
 var http = require("http");
 var url = require('url');
 var crypto = require('crypto');
-
+var api_common = require('./api_common');
 var app = express();
 
 // view engine setup

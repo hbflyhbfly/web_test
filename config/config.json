@@ -1,0 +1,56 @@
+{
+  "domain": "xxxxxxxx.com",
+  "is_debug": true,
+  "mongodb": {
+    "host": "127.0.0.1",
+    "port": "27017",
+    "db": "node-webot"
+  },
+  "sms": {
+    "host": "127.0.0.1",
+    "port": "5001"
+  },
+  "wx": {
+    "app_id": "wxb0864d52be23eaaa",
+    "app_secret": "wxb0864d52be23eaaa",
+    "wx_menu": {
+      "button": [
+        {
+          "name": "菜单",
+          "sub_button": [
+            {
+              "type": "view",
+              "name": "资讯菜单",
+              "url": "http://ip:port/all"
+            }
+          ]
+        },
+        {
+          "name": "菜单2",
+          "sub_button": [
+            {
+              "type": "view",
+              "name": "我的11",
+              "url": "http://ip:port/all"
+            }
+          ]
+        },
+        {
+          "name": "助理",
+          "sub_button": [
+            {
+              "type": "view",
+              "name": "大学",
+              "url": "http://ip:port/all"
+            },
+            {
+              "type": "view",
+              "name": "社区",
+              "url": "http://ip:port/all"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
