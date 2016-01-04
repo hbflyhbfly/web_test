@@ -1,10 +1,11 @@
 
 var express = require('express');
 var path = require('path');
-//var favicon = require('serve-favicon');
+var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+
 //var routes = require('./routes/index');
 //var users = require('./routes/users');
 //var wechat = require('wechat');
@@ -29,16 +30,13 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.query()); // Or app.use(express.query());
+//app.use(express.query()); // Or app.use(express.query());
 
-app.get('/',routes)
-app.post('/',routes)
+app.use('/', routes);
+app.use('/wechat', users);
 
-//app.use('/', routes);
-//app.use('/wechat', users);
-
-app.get('/wechat', users);
-app.post('/wechat', users);
+//app.get('/wechat', users);
+//app.post('/wechat', users);
 
 //
 //app.use('/zhoufei',function(req,res,next){
