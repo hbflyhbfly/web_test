@@ -24,5 +24,5 @@ function createMenu(callback){
     });
 }
 
-module.createMenu = createMenu;
+exports.createMenu = createMenu;
 

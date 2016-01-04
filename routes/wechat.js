@@ -8,6 +8,7 @@ var crypto = require('crypto');
 var url = require('url');
 var wechat = require('wechat');
 
+
 function sha1(str){
     var md5sum = crypto.createHash('sha1');
     md5sum.update(str);

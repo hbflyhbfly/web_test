@@ -13,6 +13,14 @@
   "wx": {
     "app_id": "wxa36b066738f699f0",
     "app_secret": "d4624c36b6795d1d99dcf0547af5443d",
+    "subscribe" :[
+      {
+        "title": "这里是阿飞的小窝",
+        "description": "说些什么好呢",
+        "picurl": "http://img3.imgtn.bdimg.com/it/u=2664814809,4210432048&fm=23&gp=0.jpg",
+        "url": "http://img3.imgtn.bdimg.com/it/u=2664814809,4210432048&fm=23&gp=0.jpg"
+      }
+    ],
     "wx_menu": {
       "button": [
         {
