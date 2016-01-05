@@ -49,9 +49,9 @@ function validateToken(req,res){
 //app.use('/wechat', wechat('syuuhi', function(req, res,next) {
 //  res.reply('你好！');
 //}));
-router.get('/wechat',validateToken);
+router.get('/',validateToken);
 
-router.post('/wechat', wechat('syuuhi', function (req, res, next) {
+router.post('/', wechat('syuuhi', function (req, res, next) {
     // 微信输入信息都在req.weixin上
     var message = req.weixin;
     console.log(message);

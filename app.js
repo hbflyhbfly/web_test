@@ -14,7 +14,7 @@ var bodyParser = require('body-parser');
 //var crypto = require('crypto');
 
 var routes = require('./routes/index');
-var users = require('./routes/wechat');
+var wechat = require('./routes/wechat');
 
 var app = express();
 
@@ -33,7 +33,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 //app.use(express.query()); // Or app.use(express.query());
 
 app.use('/', routes);
-app.use('/wechat', users);
+app.use('/wechat', wechat);
 
 //app.get('/wechat', users);
 //app.post('/wechat', users);

@@ -1,5 +1,5 @@
 {
-  "domain": "xxxxxxxx.com",
+  "domain": "52.192.81.187",
   "is_debug": true,
   "mongodb": {
     "host": "127.0.0.1",
