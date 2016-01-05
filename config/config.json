@@ -58,12 +58,12 @@
               "key": "coming_soon"
             },
             {
-              "type": "view",
+              "type": "click",
               "name": "意见征集",
               "key": "coming_soon"
             },
             {
-              "type": "view",
+              "type": "click",
               "name": "行业风采",
               "key": "coming_soon"
             }
