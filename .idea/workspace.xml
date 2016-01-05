@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d574c81d-d1af-4365-bd65-05b42819bd97" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/wechat.js" afterPath="$PROJECT_DIR$/routes/wechat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/express_company.ejs" afterPath="$PROJECT_DIR$/views/express_company.ejs" />
     </list>
     <ignored path="web_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,8 +96,8 @@
       <file leaf-file-name="wechat.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/wechat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8363636">
-              <caret line="90" column="30" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.18863636">
+              <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -834,8 +833,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/wechat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8363636">
-          <caret line="90" column="30" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.18863636">
+          <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
