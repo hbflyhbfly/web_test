@@ -25,36 +25,66 @@
     "wx_menu": {
       "button": [
         {
-          "name": "菜单",
+          "name": "行业监督",
           "sub_button": [
             {
               "type": "view",
-              "name": "资讯菜单",
-              "url": "http://ip:port/all"
-            }
-          ]
-        },
-        {
-          "name": "菜单2",
-          "sub_button": [
-            {
-              "type": "view",
-              "name": "我的11",
-              "url": "http://ip:port/all"
-            }
-          ]
-        },
-        {
-          "name": "助理",
-          "sub_button": [
-            {
-              "type": "view",
-              "name": "大学",
+              "name": "行业资讯",
               "url": "http://ip:port/all"
             },
             {
               "type": "view",
-              "name": "社区",
+              "name": "政策文件",
+              "url": "http://ip:port/all"
+            },
+            {
+              "type": "view",
+              "name": "法律法规",
+              "url": "http://ip:port/all"
+            },
+            {
+              "type": "view",
+              "name": "工作动态",
+              "url": "http://ip:port/all"
+            }
+          ]
+        },
+        {
+          "name": "互动园地",
+          "sub_button": [
+            {
+              "type": "view",
+              "name": "服务评价",
+              "url": "http://ip:port/all"
+            },
+            {
+              "type": "view",
+              "name": "意见征集",
+              "url": "http://ip:port/all"
+            },
+            {
+              "type": "view",
+              "name": "行业风采",
+              "url": "http://ip:port/all"
+            }
+          ]
+        },
+        {
+          "name": "便民服务",
+          "sub_button": [
+            {
+              "type": "view",
+              "name": "邮编查询",
+              "url": "http://ip:port/all"
+            },
+            {
+              "type": "view",
+              "name": "快递运单查询",
+              "url": "http://ip:port/all"
+            },
+            {
+              "type": "view",
+              "name": "快递网点查询",
               "url": "http://ip:port/all"
             }
           ]
