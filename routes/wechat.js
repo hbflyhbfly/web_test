@@ -71,10 +71,7 @@ router.post('/', wechat(config.wx.token, function (req, res, next) {
         if(message.EventKey == "coming_soon"){
             res.reply("敬请期待!");
         }else if(message.EventKey == "network_query"){
-            var refillStr = "<a href=\"http://www.chinapost.com.cn/\">中国邮政集团公司</a>" +"\n" +
-                "<a href=\"http://www.yto.net.cn/\">瑞通速递有限公司（圆通）</a>" +"\n";
-
-            res.reply(refillStr);
+            res.render('express_company');
         }
     }else if(message.MsgType == 'text'){
         res.reply("敬请期待!");
