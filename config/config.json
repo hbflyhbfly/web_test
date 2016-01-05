@@ -35,12 +35,12 @@
             {
               "type": "view",
               "name": "政策文件",
-              "url": "http://ip:port/all"
+              "url": "http://www.spb.gov.cn/zcfg/flfgjzc/201510/t20151030_672427.html"
             },
             {
               "type": "view",
               "name": "法律法规",
-              "url": "http://ip:port/all"
+              "url": "http://snsl.spb.gov.cn/zcfg_11271/"
             },
             {
               "type": "view",
@@ -75,12 +75,12 @@
             {
               "type": "view",
               "name": "邮编查询",
-              "url": "http://ip:port/all"
+              "url": "http://www.chayb.com/"
             },
             {
               "type": "view",
               "name": "快递运单查询",
-              "url": "http://ip:port/all"
+              "url": "http://m.kuaidi100.com/index_all.html#/index_all.html"
             },
             {
               "type": "view",
