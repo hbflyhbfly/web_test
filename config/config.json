@@ -28,9 +28,9 @@
           "name": "行业监督",
           "sub_button": [
             {
-              "type": "view",
+              "type": "click",
               "name": "行业资讯",
-              "url": "http://ip:port/all"
+              "key": "industry_news"
             },
             {
               "type": "view",
@@ -43,9 +43,9 @@
               "url": "http://snsl.spb.gov.cn/zcfg_11271/"
             },
             {
-              "type": "view",
+              "type": "click",
               "name": "工作动态",
-              "url": "http://ip:port/all"
+              "key": "dynamic_work"
             }
           ]
         },

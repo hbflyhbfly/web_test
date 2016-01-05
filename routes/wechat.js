@@ -58,18 +58,21 @@ router.post('/', wechat(config.wx.token, function (req, res, next) {
     console.log(message);
     if((message.MsgType == 'event') && (message.Event == 'subscribe'))
     {
-        var refillStr = "<a href=\"http://your_IP/weixin/refill?weixinId=" + message.fromUsername + "\">1. 关注公众账号</a>"
-
-        var consumeStr = "<a href=\"http://your_IP/weixin/consume?weixinId=" + message.fromUsername + "\">2. 关注公众账号</a>"
-        var deleteStr = "<a href=\"http://your_IP/weixin/delete?weixinId=" + message.fromUsername + "\">3. 关注公众账号</a>"
-        var historyStr = "<a href=\"http://your_IP/weixin/history?weixinId=" + message.fromUsername + "\">4. 关注公众账号</a>"
-
-        var emptyStr = "          ";
-        var replyStr = "感谢你的关注！" + "\n"+ emptyStr + "\n" + refillStr + "\n"+ emptyStr + "\n" + consumeStr
-            + "\n"+ emptyStr + "\n" + deleteStr + "\n"+ emptyStr + "\n" + historyStr;
+        //var refillStr = "<a href=\"http://your_IP/weixin/refill?weixinId=" + message.fromUsername + "\">1. 关注公众账号</a>"
+        //
+        //var consumeStr = "<a href=\"http://your_IP/weixin/consume?weixinId=" + message.fromUsername + "\">2. 关注公众账号</a>"
+        //var deleteStr = "<a href=\"http://your_IP/weixin/delete?weixinId=" + message.fromUsername + "\">3. 关注公众账号</a>"
+        //var historyStr = "<a href=\"http://your_IP/weixin/history?weixinId=" + message.fromUsername + "\">4. 关注公众账号</a>"
+        //
+        //var emptyStr = "          ";
+        var replyStr = "您好，商洛市邮政管理局官方微信开通啦！是商洛市邮政管理局政务信息公开的又一重要平台。欢迎您的关注！";
         res.reply(replyStr);
+    }else if((message.MsgType == "event") && (message.Event == 'CLICK')){
+        if(message.EventKey == "industry_news"){
+            res.reply("敬请期待!");
+        }
     }else if(message.MsgType == 'text'){
-        res.reply("谢谢访问");
+        res.reply("敬请期待!");
     }
 }));
 
