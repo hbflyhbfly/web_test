@@ -3,6 +3,7 @@
  */
 var express = require('express');
 var router = express.Router();
+var config = require('../config/config.json');
 
 var crypto = require('crypto');
 var url = require('url');
@@ -25,7 +26,7 @@ function validateToken(req,res){
     var oriArray = new Array();
     oriArray[0] = nonce;
     oriArray[1] = timestamp;
-    oriArray[2] = "syuuhi";
+    oriArray[2] = config.wx.token;
 
     oriArray.sort();
     var original = oriArray.join('');
@@ -51,24 +52,24 @@ function validateToken(req,res){
 //}));
 router.get('/',validateToken);
 
-router.post('/', wechat('syuuhi', function (req, res, next) {
+router.post('/', wechat(config.wx.token, function (req, res, next) {
     // 微信输入信息都在req.weixin上
     var message = req.weixin;
     console.log(message);
     if((message.MsgType == 'event') && (message.Event == 'subscribe'))
     {
-        var refillStr = "<a href=\"http://your_IP/weixin/refill?weixinId=" + message.fromUsername + "\">1. 点击记录团队充值</a>"
+        var refillStr = "<a href=\"http://your_IP/weixin/refill?weixinId=" + message.fromUsername + "\">1. 关注公众账号</a>"
 
-        var consumeStr = "<a href=\"http://your_IP/weixin/consume?weixinId=" + message.fromUsername + "\">2. 点击记录团队消费</a>"
-        var deleteStr = "<a href=\"http://your_IP/weixin/delete?weixinId=" + message.fromUsername + "\">3. 点击回退记录</a>"
-        var historyStr = "<a href=\"http://your_IP/weixin/history?weixinId=" + message.fromUsername + "\">4. 点击查询历史记录</a>"
+        var consumeStr = "<a href=\"http://your_IP/weixin/consume?weixinId=" + message.fromUsername + "\">2. 关注公众账号</a>"
+        var deleteStr = "<a href=\"http://your_IP/weixin/delete?weixinId=" + message.fromUsername + "\">3. 关注公众账号</a>"
+        var historyStr = "<a href=\"http://your_IP/weixin/history?weixinId=" + message.fromUsername + "\">4. 关注公众账号</a>"
 
         var emptyStr = "          ";
         var replyStr = "感谢你的关注！" + "\n"+ emptyStr + "\n" + refillStr + "\n"+ emptyStr + "\n" + consumeStr
             + "\n"+ emptyStr + "\n" + deleteStr + "\n"+ emptyStr + "\n" + historyStr;
         res.reply(replyStr);
     }else if(message.MsgType == 'text'){
-        res.reply("fgfgfgfgf");
+        res.reply("谢谢访问");
     }
 }));
 

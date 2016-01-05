@@ -11,8 +11,9 @@
     "port": "5001"
   },
   "wx": {
-    "app_id": "wxa36b066738f699f0",
-    "app_secret": "d4624c36b6795d1d99dcf0547af5443d",
+    "token": "slsyzglj",
+    "app_id": "wxcea79b2cfb4479bf",
+    "app_secret": "366d394f66be21878a5e5fab202f6a0e",
     "subscribe" :[
       {
         "title": "这里是阿飞的小窝",
