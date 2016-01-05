@@ -30,7 +30,7 @@
             {
               "type": "click",
               "name": "行业资讯",
-              "key": "industry_news"
+              "key": "coming_soon"
             },
             {
               "type": "view",
@@ -45,7 +45,7 @@
             {
               "type": "click",
               "name": "工作动态",
-              "key": "dynamic_work"
+              "key": "coming_soon"
             }
           ]
         },
@@ -53,19 +53,19 @@
           "name": "互动园地",
           "sub_button": [
             {
-              "type": "view",
+              "type": "click",
               "name": "服务评价",
-              "url": "http://ip:port/all"
+              "key": "coming_soon"
             },
             {
               "type": "view",
               "name": "意见征集",
-              "url": "http://ip:port/all"
+              "key": "coming_soon"
             },
             {
               "type": "view",
               "name": "行业风采",
-              "url": "http://ip:port/all"
+              "key": "coming_soon"
             }
           ]
         },
@@ -83,9 +83,9 @@
               "url": "http://m.kuaidi100.com/index_all.html#/index_all.html"
             },
             {
-              "type": "view",
+              "type": "click",
               "name": "快递网点查询",
-              "url": "http://ip:port/all"
+              "key": "network_query"
             }
           ]
         }
