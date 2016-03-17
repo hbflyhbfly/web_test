@@ -58,37 +58,32 @@ router.post('/', wechat(config.wx.token, function (req, res, next) {
     console.log(message);
     if((message.MsgType == 'event') && (message.Event == 'subscribe'))
     {
-        //var refillStr = "<a href=\"http://your_IP/weixin/refill?weixinId=" + message.fromUsername + "\">1. 关注公众账号</a>"
-        //
-        //var consumeStr = "<a href=\"http://your_IP/weixin/consume?weixinId=" + message.fromUsername + "\">2. 关注公众账号</a>"
-        //var deleteStr = "<a href=\"http://your_IP/weixin/delete?weixinId=" + message.fromUsername + "\">3. 关注公众账号</a>"
-        //var historyStr = "<a href=\"http://your_IP/weixin/history?weixinId=" + message.fromUsername + "\">4. 关注公众账号</a>"
-        //
-        //var emptyStr = "          ";
         var replyStr = "您好，商洛市邮政管理局官方微信开通啦！是商洛市邮政管理局政务信息公开的又一重要平台。欢迎您的关注！";
         res.reply(replyStr);
     }else if((message.MsgType == "event") && (message.Event == 'CLICK')){
         if(message.EventKey == "coming_soon"){
             res.reply("敬请期待!");
-        }else if(message.EventKey == "network_query"){
-            var replyStr = "<a href=\"http://www.chinapost.com.cn/\">中国邮政集团公司</a>"+"\n"+
-            "<a href=\"http://www.yto.net.cn/\">瑞通速递有限公司（圆通）</a>"+"\n"+
-            "<a href=\"http://www.yundaex.com/\">韵达速递有限公司</a>"+"\n"+
-            "<a href=\"http://www.sto.cn/\">申通快递有限公司</a>"+"\n"+
-            "<a href=\"http://www.htky365.com/\">汇通速递有限公司</a>"+"\n"+
-            "<a href=\"http://www.yyexp.com/\">运逸快递有限公司</a>"+"\n"+
-            "<a href=\"http://sxfy.alibole.com/\">陕西飞远文化传播有限公司</a>"+"\n"+
-            "<a href=\"http://11516438.czvv.com/\">陕西联合快递有限责任公司</a>"+"\n"+
-            "<a href=\"http://www.zjs.com.cn/\">宅急送快运有限公司</a>"+"\n"+
-            "<a href=\"http://1231192.71ab.com/\">西安城联速递有限责任公司</a>"+"\n"+
-            "<a href=\"http://www.zto.cn/\">中通快递有限公司</a>"+"\n"+
-            "<a href=\"http://jd-ex.com/\">京邦达贸易有限公司商洛分公司（京东）</a>"+"\n"+
-            "<a href=\"http://www.sf-express.com/cn/sc/\">顺丰速运有限公司</a>"+"\n"+
-            "<a href=\"http://www.qfkd.com.cn/\">全峰快递有限责任公司</a>"+"\n"+
-            "<a href=\"http://www.ttkdex.com/\">商洛天逸速递有限公司（天天）</a>"+"\n"+
-            "<a href=\"http://www.ane56.com/home/home.jsp\">安能物流</a>"+"\n"+
-            "<a href=\"http://www.deppon.com/\">德邦物流</a>"
+        }else if(message.EventKey == "network_query") {
+            var replyStr = "<a href=\"http://www.chinapost.com.cn/\">中国邮政集团公司</a>" + "\n" +
+                "<a href=\"http://www.yto.net.cn/\">瑞通速递有限公司（圆通）</a>" + "\n" +
+                "<a href=\"http://www.yundaex.com/\">韵达速递有限公司</a>" + "\n" +
+                "<a href=\"http://www.sto.cn/\">申通快递有限公司</a>" + "\n" +
+                "<a href=\"http://www.htky365.com/\">汇通速递有限公司</a>" + "\n" +
+                "<a href=\"http://www.yyexp.com/\">运逸快递有限公司</a>" + "\n" +
+                "<a href=\"http://sxfy.alibole.com/\">陕西飞远文化传播有限公司</a>" + "\n" +
+                "<a href=\"http://11516438.czvv.com/\">陕西联合快递有限责任公司</a>" + "\n" +
+                "<a href=\"http://www.zjs.com.cn/\">宅急送快运有限公司</a>" + "\n" +
+                "<a href=\"http://1231192.71ab.com/\">西安城联速递有限责任公司</a>" + "\n" +
+                "<a href=\"http://www.zto.cn/\">中通快递有限公司</a>" + "\n" +
+                "<a href=\"http://jd-ex.com/\">京邦达贸易有限公司商洛分公司（京东）</a>" + "\n" +
+                "<a href=\"http://www.sf-express.com/cn/sc/\">顺丰速运有限公司</a>" + "\n" +
+                "<a href=\"http://www.qfkd.com.cn/\">全峰快递有限责任公司</a>" + "\n" +
+                "<a href=\"http://www.ttkdex.com/\">商洛天逸速递有限公司（天天）</a>" + "\n" +
+                "<a href=\"http://www.ane56.com/home/home.jsp\">安能物流</a>" + "\n" +
+                "<a href=\"http://www.deppon.com/\">德邦物流</a>"
             res.reply(replyStr);
+        }else if(message.eventKey == ""){
+
         }
     }else if(message.MsgType == 'text'){
         res.reply("敬请期待!");
